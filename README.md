@@ -18,8 +18,6 @@ npm run dev
 
 ブラウザで [http://localhost:3000](http://localhost:3000) を開くと、プレビューを確認できる。
 
-このプロジェクトでは、[`next/font`](https://nextjs.org/docs/basic-features/font-optimization) を使用して、カスタムのGoogleフォントであるInterを自動的に最適化して読み込んでいます。
-
 ## プレビュー
 
 **サイト**
