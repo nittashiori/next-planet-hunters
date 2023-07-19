@@ -2,9 +2,9 @@ import '@/styles/destyle.css'
 import '@/styles/globals.css'
 import '@/styles/variables.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import "@fontsource/exo";
+import "@fontsource/noto-sans-jp";
+import "@fontsource/noto-sans-jp/700.css";
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

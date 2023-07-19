@@ -1,3 +1,9 @@
 :root {
-  --color-primary: red;
+  --color-main: #00FFF5;
+  --color-black: #000000;
+  --color-gray: #BFBFBF;
+  --color-white: #FFFFFF;
+
+  --font-exo: "Exo";
+  --font-notojp: "Noto Sans JP";
 }
