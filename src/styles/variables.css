@@ -1,9 +1,12 @@
 :root {
   --color-main: #00FFF5;
+  --color-main-rgba: 0, 255, 245;
   --color-black: #000000;
   --color-gray: #BFBFBF;
   --color-white: #FFFFFF;
 
   --font-exo: "Exo";
   --font-notojp: "Noto Sans JP";
+
+  --shadow-focus: 0px 0px 0px 2px rgba(var(--color-main-rgba), 0.7);
 }
